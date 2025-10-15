@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flipkart - Online Shopping Store</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="header-top">
+        <div class="logo">
+          <span class="logo-text">Flipkart</span>
+          <span class="logo-subtitle"
+            >Explore <span class="plus">Plus</span></span
+          >
+        </div>
+        <div class="search-bar">
+          <input
+            type="text"
+            placeholder="Search for products, brands and more"
+          />
+          <button class="search-btn">🔍</button>
+        </div>
+        <nav class="header-nav">
+          <a href="#login" class="login-btn">Login</a>
+          <a href="#seller">Become a Seller</a>
+          <a href="#more">More ▼</a>
+          <a href="#cart" class="cart"> 🛒 Cart </a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Categories Bar -->
+    <div class="categories-bar">
+      <div class="category-item">
+        <img src="https://via.placeholder.com/64" alt="Electronics" />
+        <span>Electronics</span>
+      </div>
+      <div class="category-item">
+        <img src="https://via.placeholder.com/64" alt="Fashion" />
+        <span>Fashion</span>
+      </div>
+      <div class="category-item">
+        <img src="https://via.placeholder.com/64" alt="Home" />
+        <span>Home & Furniture</span>
+      </div>
+      <div class="category-item">
+        <img src="https://via.placeholder.com/64" alt="Appliances" />
+        <span>Appliances</span>
+      </div>
+      <div class="category-item">
+        <img src="https://via.placeholder.com/64" alt="Travel" />
+        <span>Travel</span>
+      </div>
+      <div class="category-item">
+        <img src="https://via.placeholder.com/64" alt="Beauty" />
+        <span>Beauty, Toys & More</span>
+      </div>
+      <div class="category-item">
+        <img src="https://via.placeholder.com/64" alt="Grocery" />
+        <span>Grocery</span>
+      </div>
+    </div>
+
+    <!-- Main Banner -->
+    <div class="banner">
+      <div class="banner-content">
+        <h1>Big Billion Days Sale!</h1>
+        <p>Biggest Deals on Electronics, Fashion & More</p>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-container">
+      <!-- Filters Sidebar -->
+      <aside class="filters-sidebar">
+        <h3>Filters</h3>
+        <div class="filter-section">
+          <h4>Categories</h4>
+          <label><input type="checkbox" /> Electronics</label>
+          <label><input type="checkbox" /> Fashion</label>
+          <label><input type="checkbox" /> Home & Kitchen</label>
+          <label><input type="checkbox" /> Books</label>
+        </div>
+        <div class="filter-section">
+          <h4>Price</h4>
+          <label><input type="checkbox" /> Under ₹500</label>
+          <label><input type="checkbox" /> ₹500 - ₹1000</label>
+          <label><input type="checkbox" /> ₹1000 - ₹5000</label>
+          <label><input type="checkbox" /> ₹5000 - ₹10000</label>
+          <label><input type="checkbox" /> Above ₹10000</label>
+        </div>
+        <div class="filter-section">
+          <h4>Brand</h4>
+          <label><input type="checkbox" /> Samsung</label>
+          <label><input type="checkbox" /> Apple</label>
+          <label><input type="checkbox" /> OnePlus</label>
+          <label><input type="checkbox" /> Xiaomi</label>
+          <label><input type="checkbox" /> Realme</label>
+        </div>
+        <div class="filter-section">
+          <h4>Customer Ratings</h4>
+          <label><input type="checkbox" /> 4★ & above</label>
+          <label><input type="checkbox" /> 3★ & above</label>
+          <label><input type="checkbox" /> 2★ & above</label>
+        </div>
+      </aside>
+
+      <!-- Products Grid -->
+      <main class="products-section">
+        <div class="products-header">
+          <h2>Best Deals on Smartphones</h2>
+          <div class="sort-options">
+            <span>Sort By:</span>
+            <select>
+              <option>Popularity</option>
+              <option>Price - Low to High</option>
+              <option>Price - High to Low</option>
+              <option>Newest First</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="products-grid">
+          <!-- Product Card 1 -->
+          <div class="product-card">
+            <div class="product-image">
+              <img src="https://via.placeholder.com/200" alt="Product" />
+              <span class="discount-badge">40% OFF</span>
+            </div>
+            <div class="product-info">
+              <h3>iPhone 14 Pro Max</h3>
+              <p class="product-description">256GB, Deep Purple</p>
+              <div class="rating">
+                <span class="stars">★★★★☆</span>
+                <span class="rating-count">(12,345)</span>
+              </div>
+              <div class="price-section">
+                <span class="current-price">₹89,999</span>
+                <span class="original-price">₹1,49,999</span>
+              </div>
+              <span class="free-delivery">Free delivery</span>
+            </div>
+          </div>
+
+          <!-- Product Card 2 -->
+          <div class="product-card">
+            <div class="product-image">
+              <img src="https://via.placeholder.com/200" alt="Product" />
+              <span class="discount-badge">35% OFF</span>
+            </div>
+            <div class="product-info">
+              <h3>Samsung Galaxy S23 Ultra</h3>
+              <p class="product-description">512GB, Phantom Black</p>
+              <div class="rating">
+                <span class="stars">★★★★★</span>
+                <span class="rating-count">(8,921)</span>
+              </div>
+              <div class="price-section">
+                <span class="current-price">₹84,999</span>
+                <span class="original-price">₹1,29,999</span>
+              </div>
+              <span class="free-delivery">Free delivery</span>
+            </div>
+          </div>
+
+          <!-- Product Card 3 -->
+          <div class="product-card">
+            <div class="product-image">
+              <img src="https://via.placeholder.com/200" alt="Product" />
+              <span class="discount-badge">25% OFF</span>
+            </div>
+            <div class="product-info">
+              <h3>OnePlus 11 5G</h3>
+              <p class="product-description">256GB, Titan Black</p>
+              <div class="rating">
+                <span class="stars">★★★★☆</span>
+                <span class="rating-count">(6,543)</span>
+              </div>
+              <div class="price-section">
+                <span class="current-price">₹52,999</span>
+                <span class="original-price">₹69,999</span>
+              </div>
+              <span class="free-delivery">Free delivery</span>
+            </div>
+          </div>
+
+          <!-- Product Card 4 -->
+          <div class="product-card">
+            <div class="product-image">
+              <img src="https://via.placeholder.com/200" alt="Product" />
+              <span class="discount-badge">30% OFF</span>
+            </div>
+            <div class="product-info">
+              <h3>Xiaomi 13 Pro</h3>
+              <p class="product-description">256GB, Ceramic White</p>
+              <div class="rating">
+                <span class="stars">★★★★☆</span>
+                <span class="rating-count">(4,234)</span>
+              </div>
+              <div class="price-section">
+                <span class="current-price">₹49,999</span>
+                <span class="original-price">₹69,999</span>
+              </div>
+              <span class="free-delivery">Free delivery</span>
+            </div>
+          </div>
+
+          <!-- Product Card 5 -->
+          <div class="product-card">
+            <div class="product-image">
+              <img src="https://via.placeholder.com/200" alt="Product" />
+              <span class="discount-badge">45% OFF</span>
+            </div>
+            <div class="product-info">
+              <h3>Realme GT 2 Pro</h3>
+              <p class="product-description">128GB, Paper Green</p>
+              <div class="rating">
+                <span class="stars">★★★★☆</span>
+                <span class="rating-count">(3,876)</span>
+              </div>
+              <div class="price-section">
+                <span class="current-price">₹32,999</span>
+                <span class="original-price">₹59,999</span>
+              </div>
+              <span class="free-delivery">Free delivery</span>
+            </div>
+          </div>
+
+          <!-- Product Card 6 -->
+          <div class="product-card">
+            <div class="product-image">
+              <img src="https://via.placeholder.com/200" alt="Product" />
+              <span class="discount-badge">20% OFF</span>
+            </div>
+            <div class="product-info">
+              <h3>Google Pixel 7 Pro</h3>
+              <p class="product-description">256GB, Obsidian</p>
+              <div class="rating">
+                <span class="stars">★★★★★</span>
+                <span class="rating-count">(5,123)</span>
+              </div>
+              <div class="price-section">
+                <span class="current-price">₹67,999</span>
+                <span class="original-price">₹84,999</span>
+              </div>
+              <span class="free-delivery">Free delivery</span>
+            </div>
+          </div>
+
+          <!-- Product Card 7 -->
+          <div class="product-card">
+            <div class="product-image">
+              <img src="https://via.placeholder.com/200" alt="Product" />
+              <span class="discount-badge">50% OFF</span>
+            </div>
+            <div class="product-info">
+              <h3>Vivo V27 Pro</h3>
+              <p class="product-description">256GB, Magic Blue</p>
+              <div class="rating">
+                <span class="stars">★★★★☆</span>
+                <span class="rating-count">(2,987)</span>
+              </div>
+              <div class="price-section">
+                <span class="current-price">₹34,999</span>
+                <span class="original-price">₹69,999</span>
+              </div>
+              <span class="free-delivery">Free delivery</span>
+            </div>
+          </div>
+
+          <!-- Product Card 8 -->
+          <div class="product-card">
+            <div class="product-image">
+              <img src="https://via.placeholder.com/200" alt="Product" />
+              <span class="discount-badge">28% OFF</span>
+            </div>
+            <div class="product-info">
+              <h3>Oppo Find X5 Pro</h3>
+              <p class="product-description">256GB, Glaze Black</p>
+              <div class="rating">
+                <span class="stars">★★★★☆</span>
+                <span class="rating-count">(1,876)</span>
+              </div>
+              <div class="price-section">
+                <span class="current-price">₹57,999</span>
+                <span class="original-price">₹79,999</span>
+              </div>
+              <span class="free-delivery">Free delivery</span>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-column">
+          <h4>ABOUT</h4>
+          <ul>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Flipkart Stories</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>HELP</h4>
+          <ul>
+            <li><a href="#">Payments</a></li>
+            <li><a href="#">Shipping</a></li>
+            <li><a href="#">Cancellation & Returns</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>POLICY</h4>
+          <ul>
+            <li><a href="#">Return Policy</a></li>
+            <li><a href="#">Terms Of Use</a></li>
+            <li><a href="#">Security</a></li>
+            <li><a href="#">Privacy</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>SOCIAL</h4>
+          <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">YouTube</a></li>
+            <li><a href="#">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2007-2025 Flipkart.com</p>
+      </div>
+    </footer>
+  </body>
+</html>
